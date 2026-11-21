@@ -1,0 +1,20 @@
+{
+  "name": "elia-assistant",
+  "interface": {
+    "displayName": "ELIA Assistant"
+  },
+  "plugins": [
+    {
+      "name": "elia-assistant",
+      "source": {
+        "source": "local",
+        "path": "./openai/elia-assistant"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

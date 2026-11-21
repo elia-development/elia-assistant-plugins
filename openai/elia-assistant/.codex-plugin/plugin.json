@@ -1,0 +1,32 @@
+{
+  "name": "elia-assistant",
+  "version": "1.1.0",
+  "description": "Read your ELIA Assistant customers, messages, interactions, Insights and knowledge base. Read-only; you sign in with your dashboard account, and only that account's data is visible.",
+  "author": {
+    "name": "ELIA Assistant",
+    "url": "https://elia-assistant.com"
+  },
+  "homepage": "https://elia-assistant.com",
+  "license": "UNLICENSED",
+  "keywords": ["elia", "crm", "customer-support", "chatbot", "messages", "interactions", "insights", "knowledge-base"],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "ELIA Assistant",
+    "shortDescription": "Your customer conversations",
+    "longDescription": "Connects to the ELIA Assistant MCP server, which serves one account's stored customer conversations. Search messages across web chat, email, WhatsApp, Telegram, Slack and Teams, read one customer's recent conversation, and list the interactions raised when a conversation was handed over to a human. Look up customers with their labels and custom data, get the Insights figures for a period, and read the knowledge base each AI agent answers from. Every tool is read-only. You sign in with your ELIA Assistant dashboard account, and only that account's data is visible.",
+    "developerName": "ELIA Assistant",
+    "category": "Productivity",
+    "capabilities": ["Read"],
+    "websiteURL": "https://elia-assistant.com",
+    "supportURL": "https://elia-assistant.com/contact",
+    "privacyPolicyURL": "https://elia-assistant.com/privacy-policy",
+    "termsOfServiceURL": "https://elia-assistant.com/terms-and-conditions",
+    "defaultPrompt": [
+      "Summarise what customers asked about this week.",
+      "List the open interactions nobody has picked up yet.",
+      "What questions did the knowledge base fail to answer this month?"
+    ],
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
+}

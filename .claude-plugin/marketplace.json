@@ -1,0 +1,16 @@
+{
+  "name": "elia-assistant",
+  "owner": {
+    "name": "ELIA Assistant",
+    "url": "https://elia-assistant.com"
+  },
+  "description": "Claude plugins for ELIA Assistant.",
+  "plugins": [
+    {
+      "name": "elia-assistant",
+      "description": "Read your ELIA Assistant customers, messages, interactions, Insights and knowledge base from Claude.",
+      "version": "1.1.0",
+      "source": "./claude/elia-assistant"
+    }
+  ]
+}

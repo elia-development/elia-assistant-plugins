@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "elia-assistant": {
+      "url": "https://elia-mcp.elia-assistant.com/mcp"
+    }
+  }
+}
